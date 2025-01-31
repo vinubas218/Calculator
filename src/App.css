@@ -1,0 +1,62 @@
+.btn-row1 {
+  padding: 20px;
+  border: none;
+  border-radius: 50%;
+  font-size: 15px;
+
+}
+
+.btn-row {
+  padding: 20px;
+  border: none;
+  border-radius: 50%;
+  font-size: 15px;
+
+}
+
+.btn {
+  display: flex;
+  flex-direction: row  ;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+body {
+ 
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  
+}
+
+.input {
+  
+    width: 90%;
+    height: 20px;
+    
+    padding: 40px 10px;
+  
+  background-color: rgb(245, 243, 243);
+    border-radius: 15px;
+    
+    text-align: right;
+    margin-bottom: 20px;
+  
+  
+}
+
+.clc {
+  padding: 30px;
+  background-color: rgb(208, 212, 212);
+  border-radius: 20px;
+}
+
+.btn-row:hover, .btn-row1:hover {
+  background-color: rgb(245, 243, 243);
+  transform: scale(1.05);
+}
